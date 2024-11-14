@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+.header {
+    background-color: hsl(0, 100%, 1%);
+    padding: 5px 20px; /* Reduced padding */
+    margin-bottom: 0px  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px; /* Set a fixed height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.header h1 {
+    font-size: 40px; /* Smaller font size for the title */
+    margin: 0; /* Remove default margin */
+    color: #A3B82A;
+}   
+
+/* Logo Styles */
+.logo {
+    width: 150px; /* Set logo width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Round corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.05); /* Slightly enlarge the logo on hover */
+}
+
+/* Navigation Styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0; /* Remove default margin */
+    font-weight: bold;  
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px; /* Smaller font size for links */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links2 {
+    background-color: hsla(0, 0%, 0%, 0.795);
+    padding: 5px 20px; /* Reduced padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; /* Set a fixed height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    list-style: none;
+    gap: 15px;
+    margin-top: 0px;
+}
+
+.nav-links2 li {
+    margin: 0 200px; /* Adjust horizontal spacing between items */
+}
+
+.nav-links2 a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffffb0; /* Set text color */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links2 a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Search Bar */
+#search-bar {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 1000px; /* Increased width for the search input */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Optional: Add some border radius */
+}
+
+#search-btn {
+    height: 60px;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Add some space between input and button */
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Game Categories */
+#game-categories {
+    text-align: center;
+    margin: 40px 0; /* Add some vertical spacing */
+}
+
+.game-list {
+    display: flex;
+    justify-content: center; /* Center the boxes */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.game-item {
+    margin: 20px; /* Increased space between boxes */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside the boxes */
+    width: 300px; /* Increased width for the boxes */
+    height: 350px; /* Set a fixed height for the boxes */
+    text-align: center; /* Center text inside the box */
+    transition: transform 0.3s, background-color 0.3s; /* Animation effect on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Individual colors for each box */
+.game-item:nth-child(1) {
+    background-color:#dd82e6; /* PlayStation - Purple */
+    color: white; /* Text color */
+}
+
+.game-item:nth-child(2) {
+    background-color: #c9666e; /* Nintendo - Red */
+    color: white; /* Text color */
+}
+
+.game-item:nth-child(3) {
+    background-color: #589658; /* Xbox - Green */
+    color: white; /* Text color */
+}
+
+.game-item:nth-child(4) {
+    background-color: #e6cb72; /* PC - Yellow */
+    color: white; /* Text color */
+}
+
+.game-item:hover {
+    background-color: #007bff; /* Change to blue on hover */
+    color: white; /* Change text color to white on hover */
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    opacity: 0.9; /* Slightly fade the box on hover */
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s; /* Smooth transition effect */
+}
+
+.game-item img {
+    width: 100%; /* Make the image take the full width of the box */
+    height: 250px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel2 {
+    background-color: #000000;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid white;
+}
+
+ul a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+ul p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #A3B82A;
+}
+
+#rightmost {
+    padding-right: 40px;
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center the items */
+    margin: 20px; /* Add margin around the container */
+}
+
+/* Search Container */
+.search-container {
+    margin: 20px;
+    display: flex; /* Align search input and button horizontally */
+    align-items: center; /* Vertically center the input and button */
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px; /* Space between input and button */
+}
+
+#search-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

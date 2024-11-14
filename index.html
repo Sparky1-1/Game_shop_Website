@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>  
+    <header class="header">
+        <div class="logo-container">
+            <h1><b>Game Shop</b></h1>
+            <a href="index.html" style="display: inline-block; margin-left: 20px;">
+                <img src="/Assignment/miniproj/pics/home/logo.jpg" alt="Game Shop Logo" style="width: 150px; height: auto; border: 2px solid #333; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for games..." />
+            <button id="search-btn">Search</button>
+        </div>
+        <!-- Navigation for main actions -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/cart"><i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i> Cart</a></li>
+                <li><a href="/profile"><i class="fa-solid fa-user"></i> Profile</a></li>
+                <li><a href="/wishlist"><i class="fa-sharp-duotone fa-solid fa-heart"></i> Wishlist</a></li>
+                <li><a href="/checkout"><i class="fa-solid fa-bag-shopping"></i> Checkout</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <!-- Sub-header Navigation for game consoles -->
+<nav>
+    <ul class="nav-links2">
+        <li><a href="/ps"><i class="fa-sharp-duotone fa-solid fa-laptop"></i> PlayStation</a></li>
+        <li><a href="/xbox"><i class="fa-brands fa-xbox"></i> Xbox</a></li>
+        <li><a href="/nintendo"><i class="fa-sharp-duotone fa-solid fa-game-console-handheld-crank"></i> Nintendo</a></li>
+        <li><a href="/pc"><i class="fa-sharp-duotone fa-solid fa-bag-shopping"></i> PC</a></li>
+    </ul>
+</nav>
+
+    
+
+
+
+
+<section id="game-categories">
+    <h2 style="text-align: center;">Game Categories</h2>
+    <div class="game-list">
+        <div class="game-item">
+            <a href="/ps">
+                <h3>PlayStation Games</h3>
+                <img src="/Assignment/miniproj/pics/home/fn.jpg" alt="PlayStation Games" />
+            </a>
+        </div>
+        <div class="game-item">
+            <a href="/nintendo">
+                <h3>Nintendo Games</h3>
+                <img src="/Assignment/miniproj/pics/home/rust.jpg" alt="Nintendo Games" />
+            </a>
+        </div>
+        <div class="game-item">
+            <a href="/xbox">
+                <h3>Xbox Games</h3>
+                <img src="/Assignment/miniproj/pics/home/val.jpg" alt="Xbox Games" />
+            </a>
+        </div>
+        <div class="game-item">
+            <a href="/pc">
+                <h3>PC Games</h3>
+                <img src="/Assignment/miniproj/pics/home/gta.jpg" alt="PC Games" />
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="foot-panel2">
+            <ul>
+                <p>Our Products</p>
+                <li><a href="/ps">Playstation</a></li>
+                <li><a href="/xbox">Xbox</a></li>
+                <li><a href="/nintendo">Nintendo</a></li>
+                <li><a href="/pc">PC</a></li>
+            </ul>
+
+            <ul>
+                <p>Customer Services</p>
+                <li><a href="#"><i class="fa-solid fa-question-circle"></i> Help / FAQ</a></li>
+                <li><a href="#"><i class="fa-solid fa-file-contract"></i> Terms and Conditions</a></li>
+            </ul>
+            
+            <ul id="rightmost">
+                <p>My Account</p>
+                <li><a href="#"><i class="fa-solid fa-truck"></i> Track Order</a></li>
+                <li><a href="#"><i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i> Cart</a></li>
+                <li><a href="#"><i class="fa-solid fa-map-marker-alt"></i> Address</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

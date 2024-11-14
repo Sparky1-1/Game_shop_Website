@@ -1,0 +1,56 @@
+ index=( <!-- Slideshow for Popular and Upcoming Games -->
+    <section id="slideshow">
+        <h2>Popular & Upcoming Games</h2>
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="gta.jpg" alt="Game 1">
+                <div class="caption">GTA-6 - Coming Soon!</div>
+            </div>
+            <div class="slide">
+                <img src="rust.jpg" alt="Game 2">
+                <div class="caption">Rust - Available Now!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter and Grouped Sections -->
+    <section id="game-categories">
+        <h2>Explore by Platform</h2>
+        <button class="filter-btn" data-filter="PC">PC</button>
+        <button class="filter-btn" data-filter="Console">Console</button>
+        <button class="filter-btn" data-filter="Mobile">Mobile</button>
+        <div class="game-list">
+            <div class="game-item" data-category="PC">
+                <img src="val.jpg" alt="PC Game 1">
+                <h3>Valorant</h3>
+            </div>
+            <div class="game-item" data-category="Console">
+                <img src="fn.jpg" alt="Console Game 1">
+                <h3>fortnite</h3>
+            </div>
+            <div class="game-item" data-category="Mobile">
+                <img src="coc.jpg" alt="Mobile Game 1">
+                <h3>Clash of clans</h3>
+            </div>
+        </div>
+    </section>)
+
+
+
+        <footer>
+        <p>&copy; 2024 Game Store. All rights reserved.</p>
+    </footer>
+
+
+
+
+    /* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
